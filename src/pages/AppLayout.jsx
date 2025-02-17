@@ -1,9 +1,9 @@
 import { PageNav } from "../components/PageNav";
-export default function Product() {
+export default function AppLayout() {
   return (
     <div>
       <PageNav />
-      <h1>Product</h1>
+      <h1>AppLayout</h1>
     </div>
   );
 }

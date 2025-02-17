@@ -1,4 +1,11 @@
-import { Link } from "react-router-dom";
+import { PageNav } from "../components/PageNav";
+import { AppNav } from "../components/AppNav";
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <PageNav />
+      <AppNav />
+      <h1>Home</h1>
+    </div>
+  );
 }
